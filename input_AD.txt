@@ -1,0 +1,5 @@
+"Authentication.clientAccount"="squid@domain.COM”
+"Authentication.clientAccount"="possum@domain.COM”
+"Authentication.serverAccount"="squid@domain.COM”
+"Valid.clientAccount"="squid@domain.COM”
+"Authentication.clientAccount"="viacheslav.kozachok@betta.sec.ua”
