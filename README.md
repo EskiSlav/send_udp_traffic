@@ -12,7 +12,7 @@ python3 send_udp_traffic.py IP PORT [filename..]
 
 ## Examples
 ### Example 1
-```bash
+```
 $ python send_udp_traffic.py 127.0.0.1 8080
 
 File is not specified. Using input.txt.
@@ -26,7 +26,7 @@ Exitting...
 ```
 
 ### Example 2
-```bash
+```
 $ python send_udp_traffic.py 127.0.0.1 8080 input_AD.txt
 
 Using filename input_AD.txt
