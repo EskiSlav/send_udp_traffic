@@ -4,12 +4,12 @@ import socket
 from datetime import datetime
 from sys import argv
 from time import sleep
-from .exceptions import IPError, PortError
+from exceptions import IPError, PortError
+import logging
 
 filename = "input.txt"
-
-
-
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 def check_ip(ip):
     reg = re.compile(r'\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}\b')
@@ -19,7 +19,7 @@ def check_ip(ip):
 
 
 def check_port(port):
-    if not (res:=port > 0 and port < 65536):
+    if not (res := port > 0 and port < 65536):
         raise PortError("Port should be in range: 1-65535")
     return res
 
@@ -50,6 +50,7 @@ def check_argv():
 
     try:
         filename = argv[3]
+        logger.info(f"{filename=}")
     except IndexError:
         print(f"File is not specified. Using {filename}.")
 
@@ -73,9 +74,9 @@ def send_message(message, ip, port):
 
 
 def main():
+    check_argv()
     f = open(filename, 'r')
     lines = f.readlines()
-    check_argv()
     print(f"Using filename {filename}")
     i = 0
     while True:
@@ -87,4 +88,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt as e:
+        print('\nExitting...')
+        exit(0)
