@@ -1,5 +1,5 @@
-2021-09-02 23:59:49 imap-login: Info: Login: user=<a.a.petrov>, method=DIGEST-MD5, rip=46.113.212.139, lip=195.148.115.117, mpid=3751, TLS, session=<ISmiddxsagnLBasdtwuhdTv>
-2021-09-02 23:59:51 pop3-login: Info: Login: user=<a.a.ivanov>, method=DIGEST-MD5, rip=10.100.200.200, lip=10.100.200.1, mpid=3754, TLS, session=<SIDLdsdsgnLuNsKZAoX>
-2021-09-02 23:59:33 imap(a.a.sidorov): Info: Logged out in=636 out=1946
-2021-09-06 16:04:24 imap-login: Info: Disconnected (auth failed, 1 attempts in 2 secs): user=<a.a.petrov>, method=DIGEST-MD5, rip=37.173.121.159, lip=195.148.115.117, TLS, session=<YJaqdssdsssdWWf>
+2021-09-02 23:59:49 imap-login: Info: Login: user=<a.a.koval>, method=DIGEST-MD5, rip=46.113.212.139, lip=195.148.115.117, mpid=3751, TLS, session=<ISmiddxsagnLBasdtwuhdTv>
+2021-09-02 23:59:51 pop3-login: Info: Login: user=<a.a.kozak>, method=DIGEST-MD5, rip=10.100.200.200, lip=10.100.200.1, mpid=3754, TLS, session=<SIDLdsdsgnLuNsKZAoX>
+2021-09-02 23:59:33 imap(a.a.vakarchuk): Info: Logged out in=636 out=1946
+2021-09-06 16:04:24 imap-login: Info: Disconnected (auth failed, 1 attempts in 2 secs): user=<a.a.zelenskiy>, method=DIGEST-MD5, rip=37.173.121.159, lip=195.148.115.117, TLS, session=<YJaqdssdsssdWWf>
 2021-09-06 16:04:24 imap-login: Info: Disconnected (auth failed, 1 attempts in 10 secs): user=<v.o.kozachok>, method=DIGEST-MD5, rip=10.1.1.1, lip=195.148.115.117, TLS, session=<ANOTHER>
