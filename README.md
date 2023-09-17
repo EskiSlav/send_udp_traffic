@@ -1,12 +1,12 @@
 # Send UDP traffic
-This aplications sends udp traffic to the specified destination. Script uses data from file `input.txt` and sends each line of file as an individual packet.
+This application sends UDP traffic to the specified destination. Script uses data from file `input.txt` and sends each line of the file as an individual packet.
 
 ## Requirements
-- Python version >= 3.9
+- Python version 3.9.
 - Built-in packages are used.
 
 ## Installation
-All you need to do is basically clone repository and use your installed python. 
+All you need to do is basically clone the repository and use your installed python. 
 ```bash
 git clone https://github.com/EskiSlav/send_udp_traffic.git
 ```
